@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container index">
+    <!-- 两个按钮 -->
+    <slide-delete class="list-wrap" wx:for="{{list}}" wx:key="*list" del-class="list-del" like="true" like-class="list-like" binddelete="_del" bindlike="_like" data-id="{{item.id}}">
+       <view class='list-cont' bindtap='detail' data-id="{{item.id}}">
+            <image class='list-img' src='{{item.img}}' mode='winthFix'></image>
+            <view class='list-main'>
+                <view class='list-name'>{{item.name}}</view>
+                <view class='list-size'>规格：{{item.size}}</view>
+            </view>
+        </view>
+    </slide-delete>
+
+    <!-- 一个按钮 -->
+    <slide-delete class="list-wrap" wx:for="{{list2}}" wx:key="*list">
+       <view class='list-cont'>
+            <image class='list-img' src='{{item.img}}' mode='winthFix'></image>
+            <view class='list-main'>
+                <view class='list-name'>{{item.name}}</view>
+                <view class='list-size'>规格：{{item.size}}</view>
+            </view>
+        </view>
+    </slide-delete>
+</view>

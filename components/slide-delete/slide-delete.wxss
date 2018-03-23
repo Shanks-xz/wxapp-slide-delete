@@ -1,0 +1,41 @@
+/* component/slide-delete/slide-delete.wxss */
+.slide{
+    width: 100%;
+    height: 180rpx;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    background: #ffffff;
+}
+.slide-btn{
+    width: 100%;
+    font-size: 28rpx;
+    color: #ffffff;
+    background: #ffffff;
+    display: flex; 
+    flex-direction: row-reverse;
+    padding: 0 0 0 160rpx;
+    box-sizing: border-box;
+}
+.slide-btn view{
+    width: 140rpx;
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.slide-btn view:nth-child(1){
+    background: #ff4549;
+}
+.slide-btn view:nth-child(2){
+    background: #FF8407;
+}
+.slide-cont{
+    width: 100%;
+    min-height: 180rpx;
+    display: flex;
+    background: #ffffff;
+    position: absolute;
+    z-index: 1;
+    transition: all 200ms ease-out;
+}

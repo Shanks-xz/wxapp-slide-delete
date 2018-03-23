@@ -1,0 +1,48 @@
+/**index.wxss**/
+.index{
+    min-height: 100vh;
+    background: #f9f9f9;
+}
+.list-wrap{
+    width:100%;
+    margin-top: 20rpx;
+}
+.list-cont{
+    width: 100%;
+    height: 180rpx;
+    display: flex;
+    padding: 20rpx;
+    box-sizing: border-box;
+    background: #ffffff;
+    position: absolute;
+    z-index: 1;
+    transition: all 300ms ease-out;
+}
+.list-img{
+    width: 140rpx;
+    height: 140rpx;
+    margin-right: 20rpx; 
+}
+.list-main{
+     flex: 1; 
+}
+.list-name{
+    font-size: 28rpx;
+    color: #333333;
+    margin: 0 0 16rpx;
+}
+.list-size{
+    font-size: 24rpx;
+    color: #999999;
+}
+
+
+/* 删除按钮样式 */ 
+.list-wrap .list-del{
+    /* background: #ff4549; */
+    /* color: #333333;  */
+}
+/* 喜欢按钮样式 */
+.list-wrap .list-like{
+    /* color: #333333; */
+}

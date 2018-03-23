@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "usingComponents": {
+        "slide-delete": "/components/slide-delete/slide-delete"
+    }
+}
