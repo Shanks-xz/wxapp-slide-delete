@@ -14,12 +14,12 @@ Page({
                 id:'464sa64',
                 name: '商品名称商品名称商品名称商品名称商品名称商品名称1',
                 size:'300g',
-                img:'/img/1.jpg'
+                img:'/img/prduct.jpg'
             }, {
                 id: 'sgas3g1s1',
                 name: '矿泉水矿泉水矿泉水矿泉水矿泉水矿泉水商品名称2',
                 size: '600g',
-                img: '/img/1.jpg'
+                img: '/img/prduct.jpg'
             }
         ],
         list2: [
@@ -27,12 +27,12 @@ Page({
                 id: '464sa64',
                 name: '商品名称商品名称商品名称商品名称商品名称商品名称1',
                 size: '300g',
-                img: '/img/1.jpg'
+                img: '/img/prduct.jpg'
             }, {
                 id: 'sgas3g1s1',
                 name: '矿泉水矿泉水矿泉水矿泉水矿泉水矿泉水矿泉水矿泉水2',
                 size: '600g',
-                img: '/img/1.jpg'
+                img: '/img/prduct.jpg'
             }
         ]
     },
