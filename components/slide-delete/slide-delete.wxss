@@ -1,4 +1,4 @@
-/* component/slide-delete/slide-delete.wxss */
+/* components/slide-delete/slide-delete.wxss */
 .slide{
     width: 100%;
     height: 180rpx;
@@ -14,8 +14,6 @@
     background: #ffffff;
     display: flex; 
     flex-direction: row-reverse;
-    padding: 0 0 0 160rpx;
-    box-sizing: border-box;
 }
 .slide-btn view{
     width: 140rpx;

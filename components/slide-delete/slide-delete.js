@@ -1,4 +1,4 @@
-// component/slide-delete/slide-delete.js
+// components/slide-delete/slide-delete.js
 const winW = wx.getSystemInfoSync().screenWidth; // 屏幕宽度
 const ratio = 750 / winW //px && rpx 单位转换 (乘于 这个属性是 px 转换成 rpx)
 
@@ -22,7 +22,7 @@ Component({
         move: 0,   // 手指移动的位置
         btnWidth: 140,  // 按钮的宽度 
         lock: false,   // 限制模块右滑
-        now: 0 
+        now: 0         //为标记滑动位置设置的变量
     },
 
     // 组件的方法列表

@@ -1,4 +1,4 @@
-<!--component/slide-delete/slide-delete.wxml-->
+<!--components/slide-delete/slide-delete.wxml-->
 <view class='slide'>
     <view class='slide-cont' style="transform: translateX({{offset}}rpx)" bind:touchstart="handstart" bind:touchmove="handmove" bind:touchend="handend">
         <slot></slot>

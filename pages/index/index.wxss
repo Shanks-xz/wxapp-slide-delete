@@ -40,9 +40,9 @@
 /* 删除按钮样式 */ 
 .list-wrap .list-del{
     /* background: #ff4549; */
-    /* color: #333333;  */
+     color: #ffffff;  
 }
 /* 喜欢按钮样式 */
 .list-wrap .list-like{
-    /* color: #333333; */
+     color: #ffffff; 
 }
